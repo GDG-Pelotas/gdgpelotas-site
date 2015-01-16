@@ -1,0 +1,56 @@
+#nav-header {
+  height: 120px;
+}
+.side-nav {
+  a {
+    padding-top: 55px;
+  }
+}
+
+.parallax-container {
+  .section {
+    padding-top: 0;
+  }
+}
+
+a {
+	color: white;
+	&:hover {
+		color: black;
+	}
+}
+
+.lnk-footer {
+	text-align: right;
+}
+
+.sec-organizadores {
+	li {
+		margin: 20px;
+		float: left;
+	}
+}
+
+.section {
+	a {
+		color: #EF5350;
+		&:hover {
+			color: black;
+		}
+	}
+}
+
+.active {
+	a {
+		color: black;
+	}
+}
+
+@media only screen and (min-width: 601px) {
+	.sec-parceiros {
+		img {
+			float: right;
+			margin: 10px 0 0 0;
+		}
+	}
+}
